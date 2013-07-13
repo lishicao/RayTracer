@@ -3288,3 +3288,442 @@
 	"Phong.h"
 	"../Tracers/Tracer.h"
 
+1373436870 source:c:\users\lsc\documents\github\raytracer\myraytracer\brdfs\glossyspecular.cpp
+	"GlossySpecular.h"
+
+1373437366 c:\users\lsc\documents\github\raytracer\myraytracer\brdfs\glossyspecular.h
+	"BRDF.h"
+	<math.h>
+
+1373688736 c:\users\lsc\documents\github\raytracer\myraytracer\brdfs\brdf.h
+	"../Utilities/RGBColor.h"
+	"../Utilities/Vector3D.h"
+	"../Utilities/ShadeRec.h"
+	"../Samplers/Sampler.h"
+
+1371721952 c:\users\lsc\documents\github\raytracer\myraytracer\utilities\rgbcolor.h
+
+1371722210 c:\users\lsc\documents\github\raytracer\myraytracer\utilities\vector3d.h
+	"Matrix.h"
+
+1371721738 c:\users\lsc\documents\github\raytracer\myraytracer\utilities\matrix.h
+
+1373526090 c:\users\lsc\documents\github\raytracer\myraytracer\utilities\shaderec.h
+	"Point3D.h"
+	"Normal.h"
+	"RGBColor.h"
+	"Ray.h"
+	"../Materials/Material.h"
+
+1371721870 c:\users\lsc\documents\github\raytracer\myraytracer\utilities\point3d.h
+	"Matrix.h"
+	"Vector3D.h"
+
+1371721798 c:\users\lsc\documents\github\raytracer\myraytracer\utilities\normal.h
+	"Matrix.h"
+	"Vector3D.h"
+	"Point3D.h"
+
+1371721984 c:\users\lsc\documents\github\raytracer\myraytracer\utilities\ray.h
+	"Point3D.h"
+	"Vector3D.h"
+
+1373517532 c:\users\lsc\documents\github\raytracer\myraytracer\materials\material.h
+	"../World/World.h"
+	"../Utilities/RGBColor.h"
+
+1373266954 c:\users\lsc\documents\github\raytracer\myraytracer\world\world.h
+	"ViewPlane.h"
+	"../Utilities/RGBColor.h"
+	"../Utilities/Ray.h"
+	"../Cameras/Camera.h"
+	"../Lights/Light.h"
+
+1371722408 c:\users\lsc\documents\github\raytracer\myraytracer\world\viewplane.h
+	"../Samplers/Sampler.h"
+	"../Samplers/Regular.h"
+	"../Samplers/Jittered.h"
+	"../Samplers/MultiJittered.h"
+
+1371721670 c:\users\lsc\documents\github\raytracer\myraytracer\samplers\sampler.h
+	<vector>
+	<math.h>
+	"../Utilities/Point2D.h"
+	"../Utilities/Point3D.h"
+	"../Utilities/Maths.h"
+
+1371721808 c:\users\lsc\documents\github\raytracer\myraytracer\utilities\point2d.h
+
+1371721710 c:\users\lsc\documents\github\raytracer\myraytracer\utilities\maths.h
+	<stdlib.h>
+	"Constants.h"
+	"RGBColor.h"
+
+1366629624 c:\users\lsc\documents\github\raytracer\myraytracer\utilities\constants.h
+	<stdlib.h>
+	"RGBColor.h"
+
+1371721576 c:\users\lsc\documents\github\raytracer\myraytracer\samplers\regular.h
+	"Sampler.h"
+
+1371721550 c:\users\lsc\documents\github\raytracer\myraytracer\samplers\jittered.h
+	"Sampler.h"
+
+1371721556 c:\users\lsc\documents\github\raytracer\myraytracer\samplers\multijittered.h
+	"Sampler.h"
+
+1371721308 c:\users\lsc\documents\github\raytracer\myraytracer\cameras\camera.h
+	"../Utilities/Point3D.h"
+	"../Utilities/Vector3D.h"
+
+1373526764 c:\users\lsc\documents\github\raytracer\myraytracer\lights\light.h
+	"../Utilities/Vector3D.h"
+	"../Utilities/RGBColor.h"
+	"../Utilities/Ray.h"
+
+1367836054 source:c:\users\lsc\documents\github\raytracer\myraytracer\brdfs\lambertian.cpp
+	"Lambertian.h"
+	"../Utilities/Constants.h"
+	"../Utilities/Point3D.h"
+
+1367836326 c:\users\lsc\documents\github\raytracer\myraytracer\brdfs\lambertian.h
+	"BRDF.h"
+
+1373263810 source:c:\users\lsc\documents\github\raytracer\myraytracer\brdfs\perfectspecular.cpp
+	"PerfectSpecular.h"
+
+1373286646 c:\users\lsc\documents\github\raytracer\myraytracer\brdfs\perfectspecular.h
+	"BRDF.h"
+	<math.h>
+
+1367645188 source:c:\users\lsc\documents\github\raytracer\myraytracer\cameras\camera.cpp
+	"Camera.h"
+
+1373527402 source:c:\users\lsc\documents\github\raytracer\myraytracer\cameras\pinhole.cpp
+	"../Utilities/Constants.h"
+	"../Utilities/Point3D.h"
+	"../Utilities/Vector3D.h"
+	"../Tracers/Tracer.h"
+	"Pinhole.h"
+	<math.h>
+
+1367835856 c:\users\lsc\documents\github\raytracer\myraytracer\tracers\tracer.h
+	"../Utilities/Constants.h"
+	"../Utilities/Ray.h"
+	"../Utilities/RGBColor.h"
+
+1367825948 c:\users\lsc\documents\github\raytracer\myraytracer\cameras\pinhole.h
+	"../Utilities/Point2D.h"
+	"../World/World.h"
+	"Camera.h"
+
+1373087850 source:c:\users\lsc\documents\github\raytracer\myraytracer\cameras\thinlens.cpp
+	"../Utilities/Constants.h"
+	"../Utilities/Point3D.h"
+	"../Utilities/Vector3D.h"
+	"../Tracers/Tracer.h"
+	"ThinLens.h"
+	<math.h>
+	<iostream>
+
+1367827922 c:\users\lsc\documents\github\raytracer\myraytracer\cameras\thinlens.h
+	"../Utilities/Point2D.h"
+	"../World/World.h"
+	"Camera.h"
+	"../Samplers/Sampler.h"
+
+1373527924 source:c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\geometricobject.cpp
+	"../Materials/Material.h"
+	"../Utilities/Constants.h"
+	"../GeometricObjects/GeometricObject.h"
+
+1373530928 c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\geometricobject.h
+	<math.h>
+	"../Utilities/RGBColor.h"
+	"../Utilities/Point3D.h"
+	"../Utilities/Vector3D.h"
+	"../Utilities/Normal.h"
+	"../Utilities/Ray.h"
+	"../Utilities/ShadeRec.h"
+	"../Utilities/Constants.h"
+	"../Materials/Material.h"
+
+1367845684 source:c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\primitives\cube.cpp
+	"Cube.h"
+
+1367842752 c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\primitives\cube.h
+	<vector>
+	"../GeometricObject.h"
+	"Rectangle.h"
+
+1373523734 c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\primitives\rectangle.h
+	"../../Samplers/Sampler.h"
+	"../GeometricObject.h"
+
+1371720684 source:c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\primitives\opencylinder.cpp
+	"OpenCylinder.h"
+
+1371721336 c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\primitives\opencylinder.h
+	"../GeometricObject.h"
+
+1367836048 source:c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\primitives\plane.cpp
+	"Plane.h"
+
+1371721358 c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\primitives\plane.h
+	"../GeometricObject.h"
+
+1373523478 source:c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\primitives\rectangle.cpp
+	"Rectangle.h"
+
+1373603300 source:c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\primitives\sphere.cpp
+	"Sphere.h"
+	"math.h"
+
+1373603296 c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\primitives\sphere.h
+	"../../Samplers/Sampler.h"
+	"../GeometricObject.h"
+
+1371720720 source:c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\primitives\torus.cpp
+	"../../Utilities/Maths.h"
+	"Torus.h"
+
+1371721426 c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\primitives\torus.h
+	"../GeometricObject.h"
+
+1371720734 source:c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\triangles\triangle.cpp
+	"../../Utilities/Constants.h"
+	"Triangle.h"
+	"../../Utilities/Maths.h"
+
+1371721440 c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\triangles\triangle.h
+	"../GeometricObject.h"
+
+1373620652 source:c:\users\lsc\documents\github\raytracer\myraytracer\lights\ambient.cpp
+	"Ambient.h"
+
+1373524230 c:\users\lsc\documents\github\raytracer\myraytracer\lights\ambient.h
+	"Light.h"
+
+1373530934 source:c:\users\lsc\documents\github\raytracer\myraytracer\lights\arealight.cpp
+	"AreaLight.h"
+	<iostream>
+
+1373526756 c:\users\lsc\documents\github\raytracer\myraytracer\lights\arealight.h
+	"Light.h"
+	"../GeometricObjects/GeometricObject.h"
+	"../Tracers/AreaLighting.h"
+
+1373512762 c:\users\lsc\documents\github\raytracer\myraytracer\tracers\arealighting.h
+	"Tracer.h"
+
+1373524276 source:c:\users\lsc\documents\github\raytracer\myraytracer\lights\directional.cpp
+	"Directional.h"
+
+1373524242 c:\users\lsc\documents\github\raytracer\myraytracer\lights\directional.h
+	"Light.h"
+	"../Utilities/Vector3D.h"
+	"../Utilities/RGBColor.h"
+	"../Utilities/ShadeRec.h"
+	"../World/World.h"
+	"../GeometricObjects/GeometricObject.h"
+
+1373620862 source:c:\users\lsc\documents\github\raytracer\myraytracer\lights\light.cpp
+	"Light.h"
+	"../Utilities/Constants.h"
+
+1373524288 source:c:\users\lsc\documents\github\raytracer\myraytracer\lights\pointlight.cpp
+	"PointLight.h"
+
+1373524250 c:\users\lsc\documents\github\raytracer\myraytracer\lights\pointlight.h
+	"Light.h"
+	"../Utilities/Vector3D.h"
+	"../Utilities/ShadeRec.h"
+	"../GeometricObjects/GeometricObject.h"
+
+1373529238 source:c:\users\lsc\documents\github\raytracer\myraytracer\materials\emissive.cpp
+	"Emissive.h"
+
+1373517692 c:\users\lsc\documents\github\raytracer\myraytracer\materials\emissive.h
+	"Material.h"
+	"../BRDFs/Lambertian.h"
+	"../BRDFs/GlossySpecular.h"
+
+1373620372 source:c:\users\lsc\documents\github\raytracer\myraytracer\materials\glossyreflector.cpp
+	"GlossyReflector.h"
+
+1373686076 c:\users\lsc\documents\github\raytracer\myraytracer\materials\glossyreflector.h
+	"Phong.h"
+	"../Tracers/Tracer.h"
+
+1373515152 c:\users\lsc\documents\github\raytracer\myraytracer\materials\phong.h
+	"Material.h"
+	"../BRDFs/Lambertian.h"
+	"../BRDFs/GlossySpecular.h"
+
+1373618570 source:c:\users\lsc\documents\github\raytracer\myraytracer\materials\material.cpp
+	"Material.h"
+
+1373529716 source:c:\users\lsc\documents\github\raytracer\myraytracer\materials\matte.cpp
+	"Matte.h"
+
+1373513630 c:\users\lsc\documents\github\raytracer\myraytracer\materials\matte.h
+	"Material.h"
+	"../BRDFs/Lambertian.h"
+
+1373620882 source:c:\users\lsc\documents\github\raytracer\myraytracer\materials\phong.cpp
+	"Phong.h"
+
+1373088642 source:c:\users\lsc\documents\github\raytracer\myraytracer\paint\paint.cpp
+	"Paint.h"
+	<iostream>
+
+1371721538 c:\users\lsc\documents\github\raytracer\myraytracer\paint\paint.h
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<gl/glut.h>
+	"../Utilities/RGBColor.h"
+
+1371720804 source:c:\users\lsc\documents\github\raytracer\myraytracer\samplers\hammersley.cpp
+	"Hammersley.h"
+	"../Utilities/Maths.h"
+
+1371721544 c:\users\lsc\documents\github\raytracer\myraytracer\samplers\hammersley.h
+	"Sampler.h"
+
+1371720834 source:c:\users\lsc\documents\github\raytracer\myraytracer\samplers\jittered.cpp
+	"Jittered.h"
+
+1373437534 source:c:\users\lsc\documents\github\raytracer\myraytracer\samplers\multijittered.cpp
+	"MultiJittered.h"
+
+1371720908 source:c:\users\lsc\documents\github\raytracer\myraytracer\samplers\nrooks.cpp
+	"NRooks.h"
+
+1371721564 c:\users\lsc\documents\github\raytracer\myraytracer\samplers\nrooks.h
+	"Sampler.h"
+
+1371720928 source:c:\users\lsc\documents\github\raytracer\myraytracer\samplers\purerandom.cpp
+	"PureRandom.h"
+
+1371721570 c:\users\lsc\documents\github\raytracer\myraytracer\samplers\purerandom.h
+	"Sampler.h"
+
+1371720958 source:c:\users\lsc\documents\github\raytracer\myraytracer\samplers\regular.cpp
+	"Regular.h"
+
+1373437880 source:c:\users\lsc\documents\github\raytracer\myraytracer\samplers\sampler.cpp
+	<algorithm>
+	"../Utilities/Constants.h"
+	"Sampler.h"
+
+1373620288 source:c:\users\lsc\documents\github\raytracer\myraytracer\tracers\arealighting.cpp
+	"AreaLighting.h"
+	"../World/World.h"
+	"../Utilities/ShadeRec.h"
+	"../Materials/Material.h"
+	<iostream>
+
+1367836264 source:c:\users\lsc\documents\github\raytracer\myraytracer\tracers\multipleobjects.cpp
+	"MultipleObjects.h"
+	"../World/World.h"
+
+1366896804 c:\users\lsc\documents\github\raytracer\myraytracer\tracers\multipleobjects.h
+	"Tracer.h"
+	"../Utilities/ShadeRec.h"
+
+1373511982 source:c:\users\lsc\documents\github\raytracer\myraytracer\tracers\raycast.cpp
+	"RayCast.h"
+	"../World/World.h"
+	"../Utilities/ShadeRec.h"
+	"../Materials/Material.h"
+
+1373512380 c:\users\lsc\documents\github\raytracer\myraytracer\tracers\raycast.h
+	"Tracer.h"
+
+1367836284 source:c:\users\lsc\documents\github\raytracer\myraytracer\tracers\tracer.cpp
+	"Tracer.h"
+
+1373264478 source:c:\users\lsc\documents\github\raytracer\myraytracer\tracers\whitted.cpp
+	"Whitted.h"
+	"../World/World.h"
+	"../Utilities/ShadeRec.h"
+	"../Materials/Material.h"
+
+1373285846 c:\users\lsc\documents\github\raytracer\myraytracer\tracers\whitted.h
+	"Tracer.h"
+
+1371721078 source:c:\users\lsc\documents\github\raytracer\myraytracer\utilities\maths.cpp
+	<math.h>
+	"Maths.h"
+
+1371721104 source:c:\users\lsc\documents\github\raytracer\myraytracer\utilities\matrix.cpp
+	"Matrix.h"
+
+1371721146 source:c:\users\lsc\documents\github\raytracer\myraytracer\utilities\normal.cpp
+	<math.h>
+	"Normal.h"
+
+1371721162 source:c:\users\lsc\documents\github\raytracer\myraytracer\utilities\point2d.cpp
+	"Point2D.h"
+
+1371721190 source:c:\users\lsc\documents\github\raytracer\myraytracer\utilities\point3d.cpp
+	<math.h>
+	"Point3D.h"
+
+1371721204 source:c:\users\lsc\documents\github\raytracer\myraytracer\utilities\rgbcolor.cpp
+	<math.h>
+	"RGBColor.h"
+
+1371721218 source:c:\users\lsc\documents\github\raytracer\myraytracer\utilities\ray.cpp
+	"Ray.h"
+
+1371721228 source:c:\users\lsc\documents\github\raytracer\myraytracer\utilities\shaderec.cpp
+	"Constants.h"
+	"ShadeRec.h"
+
+1367025928 source:c:\users\lsc\documents\github\raytracer\myraytracer\utilities\vector3d.cpp
+	<math.h>
+	"Vector3D.h"
+	"Normal.h"
+	"Point3D.h"
+
+1371721250 source:c:\users\lsc\documents\github\raytracer\myraytracer\world\viewplane.cpp
+	"ViewPlane.h"
+
+1373685882 source:c:\users\lsc\documents\github\raytracer\myraytracer\world\wrold.cpp
+	"World.h"
+	"../Paint/Paint.h"
+	"../Tracers/RayCast.h"
+	"../Tracers/Whitted.h"
+	"../Tracers/AreaLighting.h"
+	"../Cameras/Pinhole.h"
+	"../Cameras/Thinlens.h"
+	"../Lights/PointLight.h"
+	"../Lights/Directional.h"
+	"../Lights/Ambient.h"
+	"../Lights/AreaLight.h"
+	"../Materials/Matte.h"
+	"../Materials/Reflective.h"
+	"../Materials/Emissive.h"
+	"../Materials/GlossyReflector.h"
+	"../Utilities/RGBColor.h"
+	"../Materials/Phong.h"
+	"../GeometricObjects/Primitives/Sphere.h"
+	"../GeometricObjects/Primitives/Plane.h"
+	"../GeometricObjects/Primitives/Cube.h"
+
+1373689950 c:\users\lsc\documents\github\raytracer\myraytracer\materials\reflective.h
+	"Phong.h"
+	"../BRDFs/PerfectSpecular.h"
+
+1373087582 source:c:\users\lsc\documents\github\raytracer\myraytracer\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	"World/World.h"
+	"GeometricObjects/Primitives/Sphere.h"
+	"Utilities/Point3D.h"
+	<iostream>
+

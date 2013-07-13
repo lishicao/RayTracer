@@ -30,7 +30,7 @@ class Reflective : public Phong
 
         virtual RGBColor shade( ShadeRec & s ) ;
 
-        //virtual RGBColor area_light_shade( ShadeRec & s ) ;
+        virtual RGBColor area_light_shade( ShadeRec & s ) ;
 } ;
 
 inline void Reflective :: set_cr( const RGBColor& c )

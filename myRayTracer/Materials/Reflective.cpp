@@ -56,7 +56,7 @@ RGBColor Reflective :: shade( ShadeRec &sr )
     return L ;
 }
 
-/*RGBColor Reflective :: area_light_shade( ShadeRec &sr )
+RGBColor Reflective :: area_light_shade( ShadeRec &sr )
 {
     RGBColor L( Phong :: area_light_shade( sr ) ) ;
     Vector3D wo = -sr.ray.d ;
@@ -68,4 +68,4 @@ RGBColor Reflective :: shade( ShadeRec &sr )
     L += fr * sr.w.tracer_ptr->trace_ray( reflective_ray , sr.depth + 1 ) * ( sr.normal * wi ) ;
    // L = red ;
     return L ;
-}*/
+}

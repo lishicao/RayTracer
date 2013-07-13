@@ -127,14 +127,14 @@
 	<File name="Materials\Emissive.h" open="0" top="0" tabpos="9">
 		<Cursor position="251" topLine="21" />
 	</File>
-	<File name="Materials\GlossyReflector.cpp" open="1" top="0" tabpos="3">
-		<Cursor position="1367" topLine="48" />
+	<File name="Materials\GlossyReflector.cpp" open="1" top="1" tabpos="3">
+		<Cursor position="1606" topLine="60" />
 	</File>
-	<File name="Materials\GlossyReflector.h" open="0" top="0" tabpos="1">
-		<Cursor position="151" topLine="21" />
+	<File name="Materials\GlossyReflector.h" open="1" top="0" tabpos="8">
+		<Cursor position="789" topLine="21" />
 	</File>
 	<File name="Materials\Material.cpp" open="1" top="0" tabpos="4">
-		<Cursor position="477" topLine="11" />
+		<Cursor position="477" topLine="6" />
 	</File>
 	<File name="Materials\Material.h" open="0" top="0" tabpos="4">
 		<Cursor position="577" topLine="13" />
@@ -145,17 +145,17 @@
 	<File name="Materials\Matte.h" open="0" top="0" tabpos="3">
 		<Cursor position="622" topLine="27" />
 	</File>
-	<File name="Materials\Phong.cpp" open="1" top="1" tabpos="6">
-		<Cursor position="3233" topLine="116" />
+	<File name="Materials\Phong.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="247" topLine="0" />
 	</File>
 	<File name="Materials\Phong.h" open="0" top="0" tabpos="6">
 		<Cursor position="168" topLine="48" />
 	</File>
 	<File name="Materials\Reflective.cpp" open="1" top="0" tabpos="5">
-		<Cursor position="1732" topLine="54" />
+		<Cursor position="1728" topLine="49" />
 	</File>
-	<File name="Materials\Reflective.h" open="0" top="0" tabpos="2">
-		<Cursor position="671" topLine="24" />
+	<File name="Materials\Reflective.h" open="1" top="0" tabpos="7">
+		<Cursor position="826" topLine="39" />
 	</File>
 	<File name="Paint\Paint.cpp" open="0" top="0" tabpos="7">
 		<Cursor position="261" topLine="0" />
@@ -206,7 +206,7 @@
 		<Cursor position="1000" topLine="62" />
 	</File>
 	<File name="Tracers\AreaLighting.cpp" open="1" top="0" tabpos="2">
-		<Cursor position="567" topLine="9" />
+		<Cursor position="567" topLine="4" />
 	</File>
 	<File name="Tracers\AreaLighting.h" open="0" top="0" tabpos="0">
 		<Cursor position="258" topLine="0" />
