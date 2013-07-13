@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="myRayTracer" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\myRayTracer" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="F:\CodeBlocks\MinGW\bin" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\myRayTracer" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="F:\CodeBlocks\MinGW\bin" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="F:\CodeBlocks\MinGW\include" />
+		</Compiler>
+		<Linker>
+			<Add library="glut32" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="F:\CodeBlocks\MinGW\lib" />
+		</Linker>
+		<Unit filename="BRDFs\BRDF.cpp" />
+		<Unit filename="BRDFs\BRDF.h" />
+		<Unit filename="BRDFs\GlossySpecular.cpp" />
+		<Unit filename="BRDFs\GlossySpecular.h" />
+		<Unit filename="BRDFs\Lambertian.cpp" />
+		<Unit filename="BRDFs\Lambertian.h" />
+		<Unit filename="BRDFs\PerfectSpecular.cpp" />
+		<Unit filename="BRDFs\PerfectSpecular.h" />
+		<Unit filename="Cameras\Camera.cpp" />
+		<Unit filename="Cameras\Camera.h" />
+		<Unit filename="Cameras\Pinhole.cpp" />
+		<Unit filename="Cameras\Pinhole.h" />
+		<Unit filename="Cameras\ThinLens.cpp" />
+		<Unit filename="Cameras\ThinLens.h" />
+		<Unit filename="GeometricObjects\GeometricObject.cpp" />
+		<Unit filename="GeometricObjects\GeometricObject.h" />
+		<Unit filename="GeometricObjects\Primitives\Cube.cpp" />
+		<Unit filename="GeometricObjects\Primitives\Cube.h" />
+		<Unit filename="GeometricObjects\Primitives\OpenCylinder.cpp" />
+		<Unit filename="GeometricObjects\Primitives\OpenCylinder.h" />
+		<Unit filename="GeometricObjects\Primitives\Plane.cpp" />
+		<Unit filename="GeometricObjects\Primitives\Plane.h" />
+		<Unit filename="GeometricObjects\Primitives\Rectangle.cpp" />
+		<Unit filename="GeometricObjects\Primitives\Rectangle.h" />
+		<Unit filename="GeometricObjects\Primitives\Sphere.cpp" />
+		<Unit filename="GeometricObjects\Primitives\Sphere.h" />
+		<Unit filename="GeometricObjects\Primitives\Torus.cpp" />
+		<Unit filename="GeometricObjects\Primitives\Torus.h" />
+		<Unit filename="GeometricObjects\Triangles\Triangle.cpp" />
+		<Unit filename="GeometricObjects\Triangles\Triangle.h" />
+		<Unit filename="Lights\Ambient.cpp" />
+		<Unit filename="Lights\Ambient.h" />
+		<Unit filename="Lights\AreaLight.cpp" />
+		<Unit filename="Lights\AreaLight.h" />
+		<Unit filename="Lights\Directional.cpp" />
+		<Unit filename="Lights\Directional.h" />
+		<Unit filename="Lights\Light.cpp" />
+		<Unit filename="Lights\Light.h" />
+		<Unit filename="Lights\PointLight.cpp" />
+		<Unit filename="Lights\PointLight.h" />
+		<Unit filename="Materials\Emissive.cpp" />
+		<Unit filename="Materials\Emissive.h" />
+		<Unit filename="Materials\GlossyReflector.cpp" />
+		<Unit filename="Materials\GlossyReflector.h" />
+		<Unit filename="Materials\Material.cpp" />
+		<Unit filename="Materials\Material.h" />
+		<Unit filename="Materials\Matte.cpp" />
+		<Unit filename="Materials\Matte.h" />
+		<Unit filename="Materials\Phong.cpp" />
+		<Unit filename="Materials\Phong.h" />
+		<Unit filename="Materials\Reflective.cpp" />
+		<Unit filename="Materials\Reflective.h" />
+		<Unit filename="Paint\Paint.cpp" />
+		<Unit filename="Paint\Paint.h" />
+		<Unit filename="Samplers\Hammersley.cpp" />
+		<Unit filename="Samplers\Hammersley.h" />
+		<Unit filename="Samplers\Jittered.cpp" />
+		<Unit filename="Samplers\Jittered.h" />
+		<Unit filename="Samplers\MultiJittered.cpp" />
+		<Unit filename="Samplers\MultiJittered.h" />
+		<Unit filename="Samplers\NRooks.cpp" />
+		<Unit filename="Samplers\NRooks.h" />
+		<Unit filename="Samplers\PureRandom.cpp" />
+		<Unit filename="Samplers\PureRandom.h" />
+		<Unit filename="Samplers\Regular.cpp" />
+		<Unit filename="Samplers\Regular.h" />
+		<Unit filename="Samplers\Sampler.cpp" />
+		<Unit filename="Samplers\Sampler.h" />
+		<Unit filename="Tracers\AreaLighting.cpp" />
+		<Unit filename="Tracers\AreaLighting.h" />
+		<Unit filename="Tracers\MultipleObjects.cpp" />
+		<Unit filename="Tracers\MultipleObjects.h" />
+		<Unit filename="Tracers\RayCast.cpp" />
+		<Unit filename="Tracers\RayCast.h" />
+		<Unit filename="Tracers\Tracer.cpp" />
+		<Unit filename="Tracers\Tracer.h" />
+		<Unit filename="Tracers\Whitted.cpp" />
+		<Unit filename="Tracers\Whitted.h" />
+		<Unit filename="Utilities\Constants.h" />
+		<Unit filename="Utilities\Maths.cpp" />
+		<Unit filename="Utilities\Maths.h" />
+		<Unit filename="Utilities\Matrix.cpp" />
+		<Unit filename="Utilities\Matrix.h" />
+		<Unit filename="Utilities\Normal.cpp" />
+		<Unit filename="Utilities\Normal.h" />
+		<Unit filename="Utilities\Point2D.cpp" />
+		<Unit filename="Utilities\Point2D.h" />
+		<Unit filename="Utilities\Point3D.cpp" />
+		<Unit filename="Utilities\Point3D.h" />
+		<Unit filename="Utilities\RGBColor.cpp" />
+		<Unit filename="Utilities\RGBColor.h" />
+		<Unit filename="Utilities\Ray.cpp" />
+		<Unit filename="Utilities\Ray.h" />
+		<Unit filename="Utilities\ShadeRec.cpp" />
+		<Unit filename="Utilities\ShadeRec.h" />
+		<Unit filename="Utilities\Vector3D.cpp" />
+		<Unit filename="Utilities\Vector3D.h" />
+		<Unit filename="World\ViewPlane.cpp" />
+		<Unit filename="World\ViewPlane.h" />
+		<Unit filename="World\World.h" />
+		<Unit filename="World\Wrold.cpp" />
+		<Unit filename="bulid\BuildBBCoverPic.cpp" />
+		<Unit filename="bulid\BuildMultipleObjects.cpp" />
+		<Unit filename="bulid\BuildSingleSphere.cpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
