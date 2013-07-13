@@ -1,6 +1,6 @@
 #include "../Utilities/Constants.h"
 #include "BRDF.h"
-
+//ahsg
 BRDF::BRDF(void)
 	: sampler_ptr(NULL)
 {}
