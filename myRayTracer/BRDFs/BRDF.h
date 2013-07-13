@@ -5,7 +5,9 @@
 #include "../Utilities/Vector3D.h"
 #include "../Utilities/ShadeRec.h"
 #include "../Samplers/Sampler.h"
-
+/*
+this is lishicao
+*/
 class BRDF {
 	public:
 
