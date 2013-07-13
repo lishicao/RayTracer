@@ -172,31 +172,55 @@ void  World :: delete_objects ()
 void World::build(void) {
 	int num_samples = 1 ;
 
-	vp.set_hres(800);
-	vp.set_vres(800);
-	vp.set_samples(num_samples);
-	vp.set_max_depth( 10 );
+	vp.set_hres( 800 ) ;
+	vp.set_vres( 800 ) ;
+	vp.set_samples( num_samples ) ;
+	vp.set_max_depth( 10 ) ;
 
 	tracer_ptr = new AreaLighting(this);
 
-	Pinhole* pinhole_ptr = new Pinhole;
-	pinhole_ptr->set_eye(7.5, 3, 9.5);
-	pinhole_ptr->set_lookat(5, 2.5, 0);
-	pinhole_ptr->set_view_distance(800);
-	pinhole_ptr->compute_uvw();
-	set_camera(pinhole_ptr);
+	Pinhole* pinhole_ptr = new Pinhole ;
+	pinhole_ptr->set_eye( 0 , 2 , 0 )  ;
+	pinhole_ptr->set_lookat( 0 , 2 , 100 ) ;
+	pinhole_ptr->set_view_distance( 700 ) ;
+	pinhole_ptr->compute_uvw() ;
+	set_camera( pinhole_ptr )  ;
 
 
 	// four point lights near the ceiling
 	// these don't use distance attenuation
 
-	PointLight* light_ptr1 = new PointLight;
-	light_ptr1->set_location( 10 , 10 , 0 ) ;
-	light_ptr1->scale_radiance(2.0) ;
-	light_ptr1->set_shadows(true);
-    add_light(light_ptr1);
+    MultiJittered *sampler_ptr = new MultiJittered ;
 
-    PointLight* light_ptr2 = new PointLight;
+    Emissive *emissive_ptr = new Emissive ;
+    emissive_ptr ->set_ce( 1 , 1 , 1 ) ;
+    emissive_ptr ->scale_randiance( 30.0 ) ;
+
+    Sphere   *object_ptr1 = new Sphere ;
+    object_ptr1 ->set_center( 3 , 3 , 5 ) ;
+    object_ptr1 ->set_radius( 2.0 ) ;
+    object_ptr1 ->set_sampler( sampler_ptr ) ;
+    object_ptr1 ->set_material( emissive_ptr ) ;
+    add_object( object_ptr1 ) ;
+
+    /*Rectangles *object_ptr2 = new Rectangles( Point3D( 0 , 0 , 5 ) , Vector3D(1,0,0) , Vector3D(0,1,0) , Normal(0,0,-1) ) ;
+    object_ptr2 ->set_material( emissive_ptr ) ;
+    object_ptr2 ->set_sampler( sampler_ptr ) ;
+    add_object( object_ptr2 ) ;*/
+
+
+    AreaLight *light_ptr1 = new AreaLight ;
+    light_ptr1 ->set_object( object_ptr1 ) ;
+    light_ptr1 ->set_shadows( true ) ;
+    add_light( light_ptr1 ) ;
+
+	/*PointLight* light_ptr_1 = new PointLight;
+	light_ptr_1->set_location( 10 , 10 , 0 ) ;
+	light_ptr_1->scale_radiance(2.0) ;
+	light_ptr_1->set_shadows(true);
+    add_light(light_ptr_1);*/
+
+    /*PointLight* light_ptr2 = new PointLight;
 	light_ptr2->set_location(0, 10, 10);
 	light_ptr2->scale_radiance(2.0);
 	light_ptr2->set_shadows(true);
@@ -212,83 +236,83 @@ void World::build(void) {
 	light_ptr4->set_location(0, 10, -10);
 	light_ptr4->scale_radiance(2.0);
 	light_ptr4->set_shadows(true);
-    add_light(light_ptr4);
+    add_light(light_ptr4);*/
 
 
 	Reflective* reflective_ptr1 = new Reflective;
-	reflective_ptr1->set_ka(0.1);
-	reflective_ptr1->set_kd(0.4);
-	reflective_ptr1->set_cd(0, 0, 1);   	 // blue
-	reflective_ptr1->set_ks(0.25);
-	reflective_ptr1->set_exp(100.0);
-	reflective_ptr1->set_kr(0.85);
-	reflective_ptr1->set_cr(0.75, 0.75, 1);  // blue
+	reflective_ptr1->set_ka(0.0);
+	reflective_ptr1->set_kd(0.0);
+	reflective_ptr1->set_cd(0.0);
+	reflective_ptr1->set_ks(0.0);
+	reflective_ptr1->set_exp(1000.0);
+	reflective_ptr1->set_kr(0.75);
+	reflective_ptr1->set_cr(1 , 1 , 1 );
 
-	Sphere*	sphere_ptr1 = new Sphere(Point3D(0, 0.5, 0), 4);
-	sphere_ptr1->set_material(reflective_ptr1);
-	add_object(sphere_ptr1);
 
 
 	double room_size = 11.0;
 
-
-
 	Matte* matte_ptr1 = new Matte;
-	matte_ptr1->set_ka(0.1);
-	matte_ptr1->set_kd(0.50);
-	matte_ptr1->set_cd(0.25);
-
-	Plane* floor_ptr = new Plane(Point3D(0, -room_size,  0), Normal(0, 1, 0));
-	floor_ptr->set_material(matte_ptr1);
-	add_object(floor_ptr);
+	matte_ptr1->set_ka( 0.1  );
+	matte_ptr1->set_kd( 0.8 );
+	matte_ptr1->set_cd( 1 , 1 , 1 ) ;
 
 
+	Sphere*	sphere_ptr1 = new Sphere( Point3D( -5 , 5 , 15 ) , 3 );
+	sphere_ptr1->set_material(matte_ptr1);
+	add_object(sphere_ptr1);
 
+
+	Phong* phong_ptr = new Phong ;
+	phong_ptr ->set_cd( 1 , 1 , 1 ) ;
+	phong_ptr ->set_cs( 1 , 1 , 1 ) ;
+	phong_ptr ->set_exp( 10 ) ;
+	phong_ptr ->set_ka( 0.5 ) ;
+	phong_ptr ->set_ks( 0.5 ) ;
+
+	Plane* floor_ptr = new Plane( Point3D ( 0 , -0.5,  0), Normal(0, 1, 0));
+	floor_ptr->set_material( matte_ptr1 );
+	add_object( floor_ptr ) ;
 
 	Matte* matte_ptr2 = new Matte;
 	matte_ptr2->set_ka(0.35);
 	matte_ptr2->set_kd(0.50);
 	matte_ptr2->set_cd(white);
 
-	Plane* ceiling_ptr = new Plane(Point3D(0, room_size,  0), Normal(0, -1, 0));
-	ceiling_ptr->set_material(matte_ptr2);
-	add_object(ceiling_ptr);
-
-
-
+	Plane* ceiling_ptr = new Plane(Point3D( 0 , 15 ,  0), Normal(0, -1, 0));
+	ceiling_ptr->set_material( matte_ptr2 );
+	add_object( ceiling_ptr );
 
 	Matte* matte_ptr3 = new Matte;
 	matte_ptr3->set_ka(0.15);
-	matte_ptr3->set_kd(0.60);
+	matte_ptr3->set_kd(0.80);
 	matte_ptr3->set_cd(0.5, 0.75, 0.75);
 
-	Plane* backWall_ptr = new Plane(Point3D(0, 0,  -room_size), Normal(0, 0, 1));
+	Plane* backWall_ptr = new Plane(Point3D( 0 , 0 ,  -room_size), Normal(0, 0, 1));
 	backWall_ptr->set_material(matte_ptr3);
 	add_object(backWall_ptr);
 
 
-	Plane* frontWall_ptr = new Plane(Point3D(0, 0,  room_size), Normal(0, 0, -1));
-	frontWall_ptr->set_material(matte_ptr3);
+	Plane* frontWall_ptr = new Plane(Point3D( 0 , 0 ,  20 ), Normal(0, 0, -1));
+	frontWall_ptr->set_material(reflective_ptr1);
 	add_object(frontWall_ptr);
-
-
 
 	Matte* matte_ptr4 = new Matte;
 	matte_ptr4->set_ka(0.15);
-	matte_ptr4->set_kd(0.60);
+	matte_ptr4->set_kd(0.90);
 	matte_ptr4->set_cd(0.71, 0.40, 0.20);
 
-	Plane* leftWall_ptr = new Plane(Point3D(-room_size, 0, 0), Normal(1, 0, 0));
+	Plane* leftWall_ptr = new Plane(Point3D(-10, 0, 0), Normal(1, 0, 0));
 	leftWall_ptr->set_material(matte_ptr4);
 	add_object(leftWall_ptr);
 
 
 
-	Plane* rightWall_ptr = new Plane(Point3D(room_size, 0, 0), Normal(-1, 0, 0));
+	Plane* rightWall_ptr = new Plane(Point3D(10, 0, 0), Normal(-1, 0, 0));
 	rightWall_ptr->set_material(matte_ptr4);
 	add_object(rightWall_ptr);
 
-
+/*
 
 
 	double mirror_size 	= 8;  	// the mirror size
@@ -373,5 +397,5 @@ void World::build(void) {
 	n = Normal(0, 1, 0);
 	Rectangles* rectangle_ptr4 = new Rectangles(p0, a, b, n);
 	rectangle_ptr4->set_material(reflective_ptr3);
-	add_object(rectangle_ptr4);
+	add_object(rectangle_ptr4);*/
 }

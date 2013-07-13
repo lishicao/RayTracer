@@ -19,6 +19,7 @@ class Emissive: public Material
         ~Emissive() ;
 
         void scale_randiance( const float _ls ) ;
+        void set_ce( const float c ) ;
         void set_ce( const float r , const float g , const float b ) ;
         void set_ce( const RGBColor& _ce ) ;
         virtual RGBColor get_Le( ShadeRec& sr ) const ;
@@ -29,6 +30,11 @@ class Emissive: public Material
 inline void Emissive :: scale_randiance( const float _ls )
 {
     ls = _ls ;
+}
+
+inline void Emissive :: set_ce( const float c )
+{
+    ce.r = ce.g = ce.b = c ;
 }
 
 inline void Emissive :: set_ce( const float r , const float g , const float b )

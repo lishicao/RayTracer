@@ -1,5 +1,5 @@
 #include "Matte.h"
-
+#include <iostream>
 Matte::Matte (void)
 	:	Material(),
 		ambient_brdf(new Lambertian),
@@ -93,7 +93,7 @@ RGBColor Matte :: shade( ShadeRec& sr ) {
 RGBColor Matte :: area_light_shade( ShadeRec& sr )
 {
 	Vector3D 	wo 			= -sr.ray.d;
-	RGBColor 	L 			= ambient_brdf -> rho( sr , wo) * sr.w.ambient_ptr -> L( sr ) ;
+	RGBColor 	L 			= ambient_brdf -> rho( sr , wo ) * sr.w.ambient_ptr -> L( sr ) ;
 	int 		num_lights	= sr.w.lights.size() ;
 	for ( int j = 0 ; j < num_lights ; j ++ ) {
 

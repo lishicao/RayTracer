@@ -4,7 +4,7 @@
 #include "../Tracers/Tracer.h"
 #include "Pinhole.h"
 #include <math.h>
-
+#include <iostream>
 Pinhole :: Pinhole()
 	:	Camera() ,
 		d( 500 ) ,

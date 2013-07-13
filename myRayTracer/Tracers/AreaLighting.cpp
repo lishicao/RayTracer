@@ -2,7 +2,7 @@
 #include "../World/World.h"
 #include "../Utilities/ShadeRec.h"
 #include "../Materials/Material.h"
-#include <iostream>
+
 AreaLighting :: AreaLighting()
              : Tracer()
 {}

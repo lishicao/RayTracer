@@ -2,7 +2,7 @@
 
 Ambient :: Ambient()
         : Light() ,
-          ls( 1.0 ) ,
+          ls( 0.01 ) ,
           color( 1.0 )
 {}
 

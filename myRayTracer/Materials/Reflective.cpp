@@ -66,6 +66,5 @@ RGBColor Reflective :: area_light_shade( ShadeRec &sr )
     Ray reflective_ray( sr.hit_point , wi ) ;
 
     L += fr * sr.w.tracer_ptr->trace_ray( reflective_ray , sr.depth + 1 ) * ( sr.normal * wi ) ;
-   // L = red ;
     return L ;
 }

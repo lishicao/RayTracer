@@ -69,7 +69,7 @@ bool AreaLight::in_shadow(const Ray& ray, const ShadeRec& sr)const{
 	    if( sr.w.objects[j]->shadow_hit(ray, t) && t < ts )
 			return (true);
 	}
-
+    return false ;
 }
 
 RGBColor AreaLight::L(ShadeRec& sr){
@@ -82,7 +82,7 @@ float AreaLight::G(const ShadeRec& sr)const{
      float ndotd = -light_normal * wi;
 	 float d2 = sample_point.d_squared(sr.hit_point);
 
-	 return ( ndotd /2 );
+	 return ( ndotd /d2 );
 }
 
 float AreaLight::pdf(const ShadeRec& sr)const{
