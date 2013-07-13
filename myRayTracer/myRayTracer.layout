@@ -31,8 +31,8 @@
 	<File name="Cameras\Camera.h" open="0" top="0" tabpos="4">
 		<Cursor position="974" topLine="27" />
 	</File>
-	<File name="Cameras\Pinhole.cpp" open="0" top="0" tabpos="4">
-		<Cursor position="1423" topLine="56" />
+	<File name="Cameras\Pinhole.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="1403" topLine="56" />
 	</File>
 	<File name="Cameras\Pinhole.h" open="0" top="0" tabpos="18">
 		<Cursor position="776" topLine="0" />
@@ -128,12 +128,12 @@
 		<Cursor position="251" topLine="21" />
 	</File>
 	<File name="Materials\GlossyReflector.cpp" open="1" top="1" tabpos="3">
-		<Cursor position="1606" topLine="60" />
+		<Cursor position="1913" topLine="60" />
 	</File>
-	<File name="Materials\GlossyReflector.h" open="1" top="0" tabpos="8">
+	<File name="Materials\GlossyReflector.h" open="0" top="0" tabpos="8">
 		<Cursor position="789" topLine="21" />
 	</File>
-	<File name="Materials\Material.cpp" open="1" top="0" tabpos="4">
+	<File name="Materials\Material.cpp" open="0" top="0" tabpos="4">
 		<Cursor position="477" topLine="6" />
 	</File>
 	<File name="Materials\Material.h" open="0" top="0" tabpos="4">
@@ -145,16 +145,16 @@
 	<File name="Materials\Matte.h" open="0" top="0" tabpos="3">
 		<Cursor position="622" topLine="27" />
 	</File>
-	<File name="Materials\Phong.cpp" open="1" top="0" tabpos="6">
+	<File name="Materials\Phong.cpp" open="0" top="0" tabpos="6">
 		<Cursor position="247" topLine="0" />
 	</File>
 	<File name="Materials\Phong.h" open="0" top="0" tabpos="6">
 		<Cursor position="168" topLine="48" />
 	</File>
-	<File name="Materials\Reflective.cpp" open="1" top="0" tabpos="5">
+	<File name="Materials\Reflective.cpp" open="0" top="0" tabpos="5">
 		<Cursor position="1728" topLine="49" />
 	</File>
-	<File name="Materials\Reflective.h" open="1" top="0" tabpos="7">
+	<File name="Materials\Reflective.h" open="0" top="0" tabpos="7">
 		<Cursor position="826" topLine="39" />
 	</File>
 	<File name="Paint\Paint.cpp" open="0" top="0" tabpos="7">
@@ -205,7 +205,7 @@
 	<File name="Samplers\Sampler.h" open="0" top="0" tabpos="7">
 		<Cursor position="1000" topLine="62" />
 	</File>
-	<File name="Tracers\AreaLighting.cpp" open="1" top="0" tabpos="2">
+	<File name="Tracers\AreaLighting.cpp" open="0" top="0" tabpos="2">
 		<Cursor position="567" topLine="4" />
 	</File>
 	<File name="Tracers\AreaLighting.h" open="0" top="0" tabpos="0">
@@ -302,18 +302,9 @@
 		<Cursor position="516" topLine="14" />
 	</File>
 	<File name="World\Wrold.cpp" open="1" top="0" tabpos="1">
-		<Cursor position="6361" topLine="193" />
-	</File>
-	<File name="bulid\BuildBBCoverPic.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="6139" topLine="0" />
-	</File>
-	<File name="bulid\BuildMultipleObjects.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="259" topLine="10" />
-	</File>
-	<File name="bulid\BuildSingleSphere.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="30" topLine="0" />
+		<Cursor position="5565" topLine="70" />
 	</File>
 	<File name="main.cpp" open="0" top="0" tabpos="1">
-		<Cursor position="1080" topLine="7" />
+		<Cursor position="312" topLine="22" />
 	</File>
 </CodeBlocks_layout_file>

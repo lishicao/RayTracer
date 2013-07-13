@@ -143,9 +143,6 @@
 		<Unit filename="World\ViewPlane.h" />
 		<Unit filename="World\World.h" />
 		<Unit filename="World\Wrold.cpp" />
-		<Unit filename="bulid\BuildBBCoverPic.cpp" />
-		<Unit filename="bulid\BuildMultipleObjects.cpp" />
-		<Unit filename="bulid\BuildSingleSphere.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
