@@ -54,9 +54,6 @@ RGBColor  World :: clamp_to_color ( const RGBColor & raw_color ) const
 	return ( c ) ;
 }
 
-/*
-»­µã
-*/
 
 void  World :: display_pixel( const int row , const int column , const RGBColor &raw_color ) const
 {
@@ -170,7 +167,7 @@ void  World :: delete_objects ()
 */
 
 void World::build(void) {
-	int num_samples = 1 ;
+	int num_samples = 16 ;
 
 	vp.set_hres( 800 ) ;
 	vp.set_vres( 800 ) ;

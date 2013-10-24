@@ -11,11 +11,11 @@
 
 1366944468 h"
 
-1314140394 f:\codeblocks\mingw\include\stdlib.h
+1341010376 f:\codeblocks\mingw\include\stdlib.h
 	<_mingw.h>
 	<stddef.h>
 
-1314140392 f:\codeblocks\mingw\include\_mingw.h
+1341010370 f:\codeblocks\mingw\include\_mingw.h
 
 1367037678 k:\myraytracer\utilities\rgbcolor.h
 
@@ -88,7 +88,7 @@
 
 1366616680 ies/Maths.h"
 
-1314140393 f:\codeblocks\mingw\include\math.h
+1341010374 f:\codeblocks\mingw\include\math.h
 	<_mingw.h>
 
 1366629748 k:\myraytracer\utilities\point2d.h
@@ -265,7 +265,7 @@
 	<winsock.h>
 	<ole2.h>
 
-1301111163 f:\codeblocks\mingw\include\winresrc.h
+1301111162 f:\codeblocks\mingw\include\winresrc.h
 	<winuser.h>
 	<winnt.h>
 	<winver.h>
@@ -277,7 +277,7 @@
 
 1301111164 f:\codeblocks\mingw\include\winuser.h
 
-1301111163 f:\codeblocks\mingw\include\winnt.h
+1301111162 f:\codeblocks\mingw\include\winnt.h
 	<winerror.h>
 	<string.h>
 	<basetsd.h>
@@ -288,55 +288,55 @@
 
 1301111162 f:\codeblocks\mingw\include\winerror.h
 
-1314140394 f:\codeblocks\mingw\include\string.h
+1341010376 f:\codeblocks\mingw\include\string.h
 	<_mingw.h>
 	<stddef.h>
 
-1301111149 f:\codeblocks\mingw\include\basetsd.h
+1301111148 f:\codeblocks\mingw\include\basetsd.h
 
-1301111157 f:\codeblocks\mingw\include\pshpack4.h
+1301111156 f:\codeblocks\mingw\include\pshpack4.h
 
-1301111157 f:\codeblocks\mingw\include\poppack.h
+1301111156 f:\codeblocks\mingw\include\poppack.h
 
 1301111164 f:\codeblocks\mingw\include\winver.h
 
-1301111149 f:\codeblocks\mingw\include\dde.h
+1301111148 f:\codeblocks\mingw\include\dde.h
 
 1301111150 f:\codeblocks\mingw\include\dlgs.h
 
-1301111149 f:\codeblocks\mingw\include\commctrl.h
+1301111148 f:\codeblocks\mingw\include\commctrl.h
 	<prsht.h>
 
-1301111157 f:\codeblocks\mingw\include\prsht.h
+1301111156 f:\codeblocks\mingw\include\prsht.h
 
 1301111162 f:\codeblocks\mingw\include\windef.h
 	<winnt.h>
 
 1301111162 f:\codeblocks\mingw\include\wincon.h
 
-1301111161 f:\codeblocks\mingw\include\winbase.h
+1301111160 f:\codeblocks\mingw\include\winbase.h
 
 1301111162 f:\codeblocks\mingw\include\wingdi.h
 
-1301111163 f:\codeblocks\mingw\include\winnls.h
+1301111162 f:\codeblocks\mingw\include\winnls.h
 
-1301111163 f:\codeblocks\mingw\include\winnetwk.h
+1301111162 f:\codeblocks\mingw\include\winnetwk.h
 
-1301111163 f:\codeblocks\mingw\include\winreg.h
+1301111162 f:\codeblocks\mingw\include\winreg.h
 
 1301111164 f:\codeblocks\mingw\include\winsvc.h
 
-1301111149 f:\codeblocks\mingw\include\cderr.h
+1301111148 f:\codeblocks\mingw\include\cderr.h
 
-1301111149 f:\codeblocks\mingw\include\ddeml.h
+1301111148 f:\codeblocks\mingw\include\ddeml.h
 
-1301111151 f:\codeblocks\mingw\include\imm.h
+1301111150 f:\codeblocks\mingw\include\imm.h
 
 1301111154 f:\codeblocks\mingw\include\lzexpand.h
 
 1301111154 f:\codeblocks\mingw\include\mmsystem.h
 
-1301111155 f:\codeblocks\mingw\include\nb30.h
+1301111154 f:\codeblocks\mingw\include\nb30.h
 
 1301111158 f:\codeblocks\mingw\include\rpc.h
 	<windows.h>
@@ -350,15 +350,15 @@
 	<basetyps.h>
 	<rpcdcep.h>
 
-1301111149 f:\codeblocks\mingw\include\basetyps.h
+1301111148 f:\codeblocks\mingw\include\basetyps.h
 
-1301111159 f:\codeblocks\mingw\include\rpcdcep.h
+1301111158 f:\codeblocks\mingw\include\rpcdcep.h
 
-1301111159 f:\codeblocks\mingw\include\rpcnsi.h
+1301111158 f:\codeblocks\mingw\include\rpcnsi.h
 
-1301111159 f:\codeblocks\mingw\include\rpcnterr.h
+1301111158 f:\codeblocks\mingw\include\rpcnterr.h
 
-1314140393 f:\codeblocks\mingw\include\excpt.h
+1341010372 f:\codeblocks\mingw\include\excpt.h
 	<_mingw.h>
 	<windef.h>
 
@@ -366,15 +366,15 @@
 	<pshpack2.h>
 	<poppack.h>
 
-1301111157 f:\codeblocks\mingw\include\pshpack2.h
+1301111156 f:\codeblocks\mingw\include\pshpack2.h
 
-1301111163 f:\codeblocks\mingw\include\winperf.h
+1301111162 f:\codeblocks\mingw\include\winperf.h
 
-1301111149 f:\codeblocks\mingw\include\commdlg.h
+1301111148 f:\codeblocks\mingw\include\commdlg.h
 	<unknwn.h>
 	<prsht.h>
 
-1301111161 f:\codeblocks\mingw\include\unknwn.h
+1301111160 f:\codeblocks\mingw\include\unknwn.h
 	<windows.h>
 	<objfwd.h>
 	<wtypes.h>
@@ -386,22 +386,22 @@
 	<rpc.h>
 	<rpcndr.h>
 
-1301111159 f:\codeblocks\mingw\include\rpcndr.h
+1301111158 f:\codeblocks\mingw\include\rpcndr.h
 	<rpcnsip.h>
 	<objfwd.h>
 
-1301111159 f:\codeblocks\mingw\include\rpcnsip.h
+1301111158 f:\codeblocks\mingw\include\rpcnsip.h
 
-1301111163 f:\codeblocks\mingw\include\winspool.h
+1301111162 f:\codeblocks\mingw\include\winspool.h
 
-1301111163 f:\codeblocks\mingw\include\winsock2.h
+1301111162 f:\codeblocks\mingw\include\winsock2.h
 	<windows.h>
 
-1301111163 f:\codeblocks\mingw\include\winsock.h
+1301111162 f:\codeblocks\mingw\include\winsock.h
 	<windows.h>
 	<mswsock.h>
 
-1301111155 f:\codeblocks\mingw\include\mswsock.h
+1301111154 f:\codeblocks\mingw\include\mswsock.h
 
 1301111156 f:\codeblocks\mingw\include\ole2.h
 	<winerror.h>
@@ -410,7 +410,7 @@
 	<oleauto.h>
 	<oleidl.h>
 
-1301111155 f:\codeblocks\mingw\include\objbase.h
+1301111154 f:\codeblocks\mingw\include\objbase.h
 	<rpc.h>
 	<rpcndr.h>
 	<stdlib.h>
@@ -423,14 +423,14 @@
 1301111156 f:\codeblocks\mingw\include\objidl.h
 	<objfwd.h>
 
-1301111149 f:\codeblocks\mingw\include\cguid.h
+1301111148 f:\codeblocks\mingw\include\cguid.h
 
 1301111156 f:\codeblocks\mingw\include\olectlid.h
 
 1301111156 f:\codeblocks\mingw\include\oleauto.h
 	<oaidl.h>
 
-1301111155 f:\codeblocks\mingw\include\oaidl.h
+1301111154 f:\codeblocks\mingw\include\oaidl.h
 	<windows.h>
 	<ole2.h>
 
@@ -439,7 +439,7 @@
 
 1301111164 f:\codeblocks\mingw\include\gl\gl.h
 
-1301111165 f:\codeblocks\mingw\include\gl\glu.h
+1301111164 f:\codeblocks\mingw\include\gl\glu.h
 	<stddef.h>
 	<GL/gl.h>
 
@@ -3295,7 +3295,7 @@
 	"BRDF.h"
 	<math.h>
 
-1373688736 c:\users\lsc\documents\github\raytracer\myraytracer\brdfs\brdf.h
+1373707543 c:\users\lsc\documents\github\raytracer\myraytracer\brdfs\brdf.h
 	"../Utilities/RGBColor.h"
 	"../Utilities/Vector3D.h"
 	"../Utilities/ShadeRec.h"
@@ -3399,7 +3399,7 @@
 1367645188 source:c:\users\lsc\documents\github\raytracer\myraytracer\cameras\camera.cpp
 	"Camera.h"
 
-1373700351 source:c:\users\lsc\documents\github\raytracer\myraytracer\cameras\pinhole.cpp
+1373707543 source:c:\users\lsc\documents\github\raytracer\myraytracer\cameras\pinhole.cpp
 	"../Utilities/Constants.h"
 	"../Utilities/Point3D.h"
 	"../Utilities/Vector3D.h"
@@ -3499,13 +3499,13 @@
 1371721440 c:\users\lsc\documents\github\raytracer\myraytracer\geometricobjects\triangles\triangle.h
 	"../GeometricObject.h"
 
-1373700555 source:c:\users\lsc\documents\github\raytracer\myraytracer\lights\ambient.cpp
+1373707543 source:c:\users\lsc\documents\github\raytracer\myraytracer\lights\ambient.cpp
 	"Ambient.h"
 
 1373524230 c:\users\lsc\documents\github\raytracer\myraytracer\lights\ambient.h
 	"Light.h"
 
-1373700729 source:c:\users\lsc\documents\github\raytracer\myraytracer\lights\arealight.cpp
+1373707543 source:c:\users\lsc\documents\github\raytracer\myraytracer\lights\arealight.cpp
 	"AreaLight.h"
 	<iostream>
 
@@ -3544,12 +3544,12 @@
 1373529238 source:c:\users\lsc\documents\github\raytracer\myraytracer\materials\emissive.cpp
 	"Emissive.h"
 
-1373692532 c:\users\lsc\documents\github\raytracer\myraytracer\materials\emissive.h
+1373707543 c:\users\lsc\documents\github\raytracer\myraytracer\materials\emissive.h
 	"Material.h"
 	"../BRDFs/Lambertian.h"
 	"../BRDFs/GlossySpecular.h"
 
-1373700338 source:c:\users\lsc\documents\github\raytracer\myraytracer\materials\glossyreflector.cpp
+1373707543 source:c:\users\lsc\documents\github\raytracer\myraytracer\materials\glossyreflector.cpp
 	"GlossyReflector.h"
 
 1373686076 c:\users\lsc\documents\github\raytracer\myraytracer\materials\glossyreflector.h
@@ -3564,7 +3564,7 @@
 1373700159 source:c:\users\lsc\documents\github\raytracer\myraytracer\materials\material.cpp
 	"Material.h"
 
-1373700851 source:c:\users\lsc\documents\github\raytracer\myraytracer\materials\matte.cpp
+1373707543 source:c:\users\lsc\documents\github\raytracer\myraytracer\materials\matte.cpp
 	"Matte.h"
 	<iostream>
 
@@ -3572,7 +3572,7 @@
 	"Material.h"
 	"../BRDFs/Lambertian.h"
 
-1373699910 source:c:\users\lsc\documents\github\raytracer\myraytracer\materials\phong.cpp
+1373707543 source:c:\users\lsc\documents\github\raytracer\myraytracer\materials\phong.cpp
 	"Phong.h"
 
 1373088642 source:c:\users\lsc\documents\github\raytracer\myraytracer\paint\paint.cpp
@@ -3619,7 +3619,7 @@
 	"../Utilities/Constants.h"
 	"Sampler.h"
 
-1373700509 source:c:\users\lsc\documents\github\raytracer\myraytracer\tracers\arealighting.cpp
+1373707543 source:c:\users\lsc\documents\github\raytracer\myraytracer\tracers\arealighting.cpp
 	"AreaLighting.h"
 	"../World/World.h"
 	"../Utilities/ShadeRec.h"
@@ -3692,7 +3692,7 @@
 1371721250 source:c:\users\lsc\documents\github\raytracer\myraytracer\world\viewplane.cpp
 	"ViewPlane.h"
 
-1373704259 source:c:\users\lsc\documents\github\raytracer\myraytracer\world\wrold.cpp
+1373707543 source:c:\users\lsc\documents\github\raytracer\myraytracer\world\wrold.cpp
 	"World.h"
 	"../Paint/Paint.h"
 	"../Tracers/RayCast.h"
@@ -3714,13 +3714,13 @@
 	"../GeometricObjects/Primitives/Plane.h"
 	"../GeometricObjects/Primitives/Cube.h"
 
-1373698126 c:\users\lsc\documents\github\raytracer\myraytracer\materials\reflective.h
+1373707543 c:\users\lsc\documents\github\raytracer\myraytracer\materials\reflective.h
 	"Phong.h"
 	"../BRDFs/PerfectSpecular.h"
 
-1373087582 source:c:\users\lsc\documents\github\raytracer\myraytracer\main.cpp
+1379302565 source:c:\users\lsc\documents\github\raytracer\myraytracer\main.cpp
 	<windows.h>
-	<GLUT/glut.h>
+	<GL/glut.h>
 	<GL/glut.h>
 	<stdlib.h>
 	"World/World.h"
@@ -3728,11 +3728,11 @@
 	"Utilities/Point3D.h"
 	<iostream>
 
-1373688670 source:c:\users\lsc\documents\github\raytracer\myraytracer\brdfs\brdf.cpp
+1373707543 source:c:\users\lsc\documents\github\raytracer\myraytracer\brdfs\brdf.cpp
 	"../Utilities/Constants.h"
 	"BRDF.h"
 
-1373698154 source:c:\users\lsc\documents\github\raytracer\myraytracer\materials\reflective.cpp
+1373707543 source:c:\users\lsc\documents\github\raytracer\myraytracer\materials\reflective.cpp
 	"Reflective.h"
 	"../Tracers/Tracer.h"
 
